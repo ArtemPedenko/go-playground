@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	url      = "https://xn----8sbfyhjh4c.xn--p1ai/directus/items/houses?limit=3&fields=*,house_news.*,house_reports.*&page=1&meta=*&" // URL
+	url      = "https://" // URL
 	duration = 200 * time.Second                                                                                                      // Длительность теста
 	rps      = 100                                                                                                                    // Количество запросов в секунду
 	workers  = 500                                                                                                                    // Количество горутин (регулируется)
